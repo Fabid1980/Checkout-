@@ -1,7 +1,6 @@
 package com.main.checkout;
 
 // Pricing rule that calculates a constant price for each item.
- 
 public class ConstantPricingRule implements PricingRule {
 
     private double basePrice;

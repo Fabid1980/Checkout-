@@ -1,7 +1,6 @@
 package com.main.checkout;
 
 // Pricing rule that calculates a discount price for every n-th item.
- 
 public class DiscountPricingRule implements PricingRule {
 
     private double basePrice;
